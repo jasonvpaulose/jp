@@ -1,0 +1,32 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: lightblue;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#greet, #train{
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.future{
+    float: right;
+}
+
+
+section{
+    background: rgb(197, 227, 236, 0.5);
+    width: 49%;
+    display: inline-block;
+}

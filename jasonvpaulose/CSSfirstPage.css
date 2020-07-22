@@ -1,0 +1,133 @@
+/* general type styling*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+main{
+    background: #cbe2c1;
+    background: -webkit-linear-gradient( #f1f3f5, #c5e0f1);
+    background: -moz-linear-gradient( #f1f3f5, #c5e0f1);
+    background: linear-gradient( #f1f3f5, #c5e0f1);
+}
+
+.headlinks{
+    margin: 0px 8px 10px 8px;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+/*image formatting*/
+.container:before,
+.container: after {
+    content: "";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+  }
+.container {
+    clear: both;
+    *zoom: 1;
+  }
+  
+
+#logo{
+    float: left;
+    padding: 0px;
+    margin:0px;
+}
+
+/* header*/
+#greet{
+    text-align: center;
+    color: #ffffff;
+    background: #092e7e;
+    padding-bottom: 5px;
+}
+
+#intro{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Where I've been*/
+.ed{
+    width: 44%;
+    padding: 5px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 20px;
+    background: #c7e8f1;
+}
+
+/*Where I'm going*/
+.future{
+    width: 44%;
+    padding: 5px 20px;
+    border-radius: 20px;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+    background: #c7e8f1;
+}
+
+ul{
+    font-size: 16px;
+    list-style: square inside url('bullet.svg');
+}
+
+a{
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:link{
+    color: white;
+}
+
+a:hover{
+    font-size: 17px;
+}
+
+a:focus{
+    color: rgb(49, 49, 197);
+}
+
+/*More about me*/
+.personal{
+    width: 45%;
+    margin: 10px auto;
+    padding: 5px 20px;
+    border-radius: 20px;
+    clear: both;
+    background: #c7e8f1;
+}
+
+#train{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: #092e7e;
+    vertical-align: bottom;
+}
